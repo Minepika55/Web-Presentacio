@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-  float: left;
+  text-align: center;
 }
 
 li a {
@@ -40,8 +40,27 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: net;
+  text-align: center;
+
 }
 
 li a:hover {
   background-color: #4332da;
+}
+
+h1{
+  font-family: rosso;
+  font-size: xx-large;
+  text-align: center;
+}
+
+@font-face {
+  font-family: rosso;
+  src: url(fonts/NiseSegaRosso.TTF);
+}
+
+@font-face {
+  font-family: net;
+  src: url(fonts/NiseSegaNet.TTF);
 }

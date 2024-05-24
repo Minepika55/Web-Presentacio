@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Contact from "./Contact";
+import Extres from "./Extres";
 import Links from "./links";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Contact />,
+  },
+  {
+    path: "extres",
+    element: <Extres />,
   },
   {
     path: "*",

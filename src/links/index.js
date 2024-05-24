@@ -8,15 +8,13 @@ function Links() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a class="active" href="/info">
-            Info
-          </a>
+          <a href="/info">Info</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <a href="/contact">Hobbies</a>
+          <a href="/contact">Extres</a>
         </li>
       </ul>
     </div>

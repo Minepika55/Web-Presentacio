@@ -28,4 +28,18 @@
   .active {
     background-color: #488edf;
   }
+  div {
+    height: 1700px;
+    width: auto;
+  }
+
+  @font-face {
+    font-family: rosso;
+    src: url(NiseSegaRosso.TTF);
+  }
+
+  @font-face {
+    font-family: net;
+    src: url(NiseSegaNet.TTF);
+  }
 }

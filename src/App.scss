@@ -47,4 +47,28 @@ html {
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
+
+  h1 {
+    font-family: rosso;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    color: white;
+  }
+  @font-face {
+    font-family: rosso;
+    src: url(fonts/NiseSegaRosso.TTF);
+  }
+
+  @font-face {
+    font-family: net;
+    src: url(fonts/NiseSegaNet.TTF);
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
 }

@@ -15,6 +15,9 @@ function Links() {
         <li>
           <a href="/contact">Contact</a>
         </li>
+        <li>
+          <a href="/contact">Hobbies</a>
+        </li>
       </ul>
     </div>
   );

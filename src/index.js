@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Contact from "./Contact";
 import Links from "./links";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "curriculum",
     element: <div>BUIT</div>,
+  },
+  {
+    path: "contact",
+    element: <Contact />,
   },
   {
     path: "*",

@@ -3,14 +3,14 @@ import "./styles.scss";
 function Extres() {
   return (
     <div className="extres">
-      <img src="linkedin.png" id="imatge" />
-      <a href="https://www.linkedin.com/in/guillem-ortiz-hern%C3%A0ndez-2061002b7/">
-        Linkedin
-      </a>
+      <p>Sóc molt fan de les coses retro.</p>
+      <img src="img/26.gif" id="imatge" />
       <p></p>
-      <p>
-        <a href="mailto:guillem.ortiz.lsgi@gmail.com">E-mail</a>
-      </p>
+      <img src="img/47.gif" id="imatge" />
+      <p></p>
+      <img src="img/49.gif" id="imatge" />
+      <p></p>
+      <img src="img/92.gif" id="imatge" />
     </div>
   );
 }

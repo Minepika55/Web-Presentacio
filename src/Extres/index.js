@@ -1,10 +1,11 @@
 import "./styles.scss";
+import img1 from "./26.gif";
 
 function Extres() {
   return (
     <div className="extres">
       <p>Sóc molt fan de les coses retro.</p>
-      <img src="img/26.gif" id="imatge" />
+      <img src={img1} id="zoom" />
       <p></p>
       <img src="img/47.gif" id="imatge" />
       <p></p>

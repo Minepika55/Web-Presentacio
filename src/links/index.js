@@ -14,7 +14,7 @@ function Links() {
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <a href="/contact">Extres</a>
+          <a href="/extres">Extres</a>
         </li>
       </ul>
     </div>

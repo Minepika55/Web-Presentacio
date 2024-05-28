@@ -4,7 +4,7 @@ import img1 from "./26.gif";
 function Extres() {
   return (
     <div className="extres">
-      <p>Sóc molt fan de les coses retro. Aqui hi han alguns gifs:</p>
+      <p>Sóc molt fan de les coses retro. Aqui hi han alguns gifs retro:</p>
       <p>Passa per sobre amb el ratolí per fer zoom.</p>
       <img src={img1} class="zoom" />
       <p></p>

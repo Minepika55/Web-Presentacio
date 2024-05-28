@@ -7,6 +7,24 @@ div {
   width: 150px;
   height: 150px;
   margin: 0 auto;
+  image-rendering: -webkit-optimize-contrast; /* webkit */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+}
+
+.pixel {
+  padding: 50px;
+  transition: transform 0.2s;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  image-rendering: -webkit-optimize-contrast; /* webkit */
+  image-rendering: -moz-crisp-edges; /* Firefox */
+}
+
+.pixel:hover {
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Safari 3-8 */
+  transform: scale(3);
 }
 
 .zoom:hover {

@@ -5,6 +5,7 @@ import App from "./App";
 import Contact from "./Contact";
 import Extres from "./Extres";
 import Links from "./links";
+import Info from "./Info";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Contact />,
+  },
+  {
+    path: "info",
+    element: <Info />,
   },
   {
     path: "extres",

@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       document.getElementById("loadingSpinner").style.display = "none"; // Amaga el spinner
-    }, 700);
+    }, 600);
     return () => clearTimeout(timer); // Neteja
   }, []);
 

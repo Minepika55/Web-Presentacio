@@ -50,10 +50,16 @@ html {
 
   p {
     font-family: writer;
+    color: wheat;
   }
 
   @font-face {
     font-family: writer;
     src: url(Writer.ttf);
+  }
+  ol {
+    font-size: x-large;
+    color: wheat;
+    font-family: writer;
   }
 }

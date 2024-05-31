@@ -4,6 +4,7 @@ import img1 from "./ds1.png";
 import img2 from "./ds2.png";
 import img3 from "./ds3.png";
 import img4 from "./ds4.png";
+import salle from "./sallelogo.jpeg";
 
 function Info() {
   const images = [img1, img2, img3, img4]; //Array amb les imatges
@@ -30,6 +31,7 @@ function Info() {
         videojocs
       </p>
       <p>de La Salle Girona.</p>
+      <img src={salle} alt="" className="image" />
       <p>
         Conec Anglès amb un títol de C1 i Català i Castellà com a llengües
         maternes

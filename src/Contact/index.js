@@ -24,6 +24,7 @@ function Contact() {
 
   return (
     <div className="contact">
+      <p>Se'm pot contactar als següents enllaços:</p>
       <button
         className="button"
         onClick={() =>
@@ -59,6 +60,18 @@ function Contact() {
         }
       >
         Email
+      </button>
+      <button
+        className="button"
+        onClick={() =>
+          window.open(
+            "https://x.com/minepika55?lang=es",
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
+      >
+        Twitter
       </button>
       <img src={images[currentImageIndex]} alt="" className="zoom" />
       <h2>Current Signal</h2>

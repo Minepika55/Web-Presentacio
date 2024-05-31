@@ -24,14 +24,14 @@ function Info() {
 
   return (
     <div className="extres">
-      <p>Informacio sobre mi:</p>
+      <p>Informació sobre mi:</p>
       <p>
-        Estudiant de primer any del Grau Superior de Programació d'applicacións
-        i videojocs
+        Estudiant de primer any del Grau Superior de Programació d'aplicacions i
+        videojocs
       </p>
-      <p>de la Salle Girona.</p>
+      <p>de La Salle Girona.</p>
       <p>
-        Conec Anglès amb un titol de C1 i Català i Castellà com a llengues
+        Conec Anglès amb un títol de C1 i Català i Castellà com a llengües
         maternes
       </p>
       <p>Llenguatges de programació que conec:</p>

@@ -5,6 +5,8 @@ import img2 from "./ds2.png";
 import img3 from "./ds3.png";
 import img4 from "./ds4.png";
 import linkedin from "./linkedin.png";
+import github from "./github-mark.png";
+import email from "./email.png";
 
 function Contact() {
   const images = [img1, img2, img3, img4]; //Array amb les imatges
@@ -24,13 +26,15 @@ function Contact() {
   }, []);
   return (
     <div className="contact">
-      <img src={linkedin} id="imatge" />
+      c
       <a href="https://www.linkedin.com/in/guillem-ortiz-hern%C3%A0ndez-2061002b7/">
         Linkedin
       </a>
       <p></p>
+      <img src={github} id="imatge" />
       <a href="https://github.com/Minepika55">GitHub</a>
       <p>
+        <img src={email} id="imatge" />
         <a href="mailto:guillem.ortiz.lsgi@gmail.com">E-mail</a>
       </p>
       <img src={images[currentImageIndex]} alt="" className="zoom" />

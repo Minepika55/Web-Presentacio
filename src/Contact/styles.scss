@@ -14,3 +14,18 @@ div {
   width: 2%;
   height: 2%;
 }
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #131313;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($color: #33bb0a, $amount: 10%);
+  }
+}

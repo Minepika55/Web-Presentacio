@@ -1,5 +1,5 @@
-import "./styles.scss";
 import React, { useState, useEffect } from "react";
+import "./styles.scss"; // Ensure this import is at the top
 import img1 from "./ds1.png";
 import img2 from "./ds2.png";
 import img3 from "./ds3.png";
@@ -9,36 +9,59 @@ import github from "./github-mark.png";
 import email from "./email.png";
 
 function Contact() {
-  const images = [img1, img2, img3, img4]; //Array amb les imatges
+  const images = [img1, img2, img3, img4];
 
-  //Posa imatge aleatoria
   const getRandomIndex = () => Math.floor(Math.random() * images.length);
 
-  //Controla la imatge actual
   const [currentImageIndex, setCurrentImageIndex] = useState(getRandomIndex());
 
-  //Cambia la imatge cada dos segons
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentImageIndex(getRandomIndex());
     }, 2000);
-    return () => clearInterval(timer); //Nateja
+    return () => clearInterval(timer);
   }, []);
+
   return (
     <div className="contact">
-      <img src={linkedin} id="imatge" />
-      <a href="https://www.linkedin.com/in/guillem-ortiz-hern%C3%A0ndez-2061002b7/">
+      <button
+        className="button"
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/in/guillem-ortiz-hern%C3%A0ndez-2061002b7/",
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
+      >
         Linkedin
-      </a>
-      <p></p>
-      <img src={github} id="imatge" />
-      <a href="https://github.com/Minepika55">GitHub</a>
-      <p>
-        <img src={email} id="imatge" />
-        <a href="mailto:guillem.ortiz.lsgi@gmail.com">E-mail</a>
-      </p>
+      </button>
+      <button
+        className="button"
+        onClick={() =>
+          window.open(
+            "https://github.com/Minepika55",
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
+      >
+        GitHub
+      </button>
+      <button
+        className="button"
+        onClick={() =>
+          window.open(
+            "mailto:guillem.ortiz.lsgi@gmail.com?subject=Hello&body=Hi",
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
+      >
+        Email
+      </button>
       <img src={images[currentImageIndex]} alt="" className="zoom" />
-      <h2>Senyal actual</h2>
+      <h2>Current Signal</h2>
     </div>
   );
 }

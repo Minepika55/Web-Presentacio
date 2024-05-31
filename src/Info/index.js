@@ -25,6 +25,15 @@ function Info() {
   return (
     <div className="extres">
       <p>Informacio sobre mi:</p>
+      <p>
+        Estudiant de primer any del Grau Superior de Programació d'applicacións
+        i videojocs
+      </p>
+      <p>de la Salle Girona.</p>
+      <p>
+        Conec Anglès amb un titol de C1 i Català i Castellà com a llengues
+        maternes
+      </p>
       <p>Llenguatges de programació que conec:</p>
       <ol>
         <li>C++</li>

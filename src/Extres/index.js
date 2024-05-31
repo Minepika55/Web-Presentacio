@@ -26,10 +26,10 @@ function Extres() {
 
   return (
     <div className="extres">
-      <p>Sóc molt fan de les coses retro. Aqui hi han alguns gifs retro:</p>
+      <p>Soc molt fan de les coses retro. Aquí hi ha alguns gifs retro:</p>
       <p>Passa per sobre amb el ratolí per fer zoom.</p>
       <p>
-        Primer hi ha un partit de futbol que vaig grabar, el gif només utilitza
+        Primer hi ha un partit de futbol que vaig gravar, el GIF només utilitza
         3 colors. Blanc, Negre i Vermell.
       </p>
       <p></p>

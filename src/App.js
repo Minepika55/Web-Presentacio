@@ -34,7 +34,10 @@ function App() {
     <div className="Home">
       <h1>Guillem Ortiz Hernandez</h1>
 
-      <p>Benvingut a la meva pàgina personal</p>
+      <p>
+        Benvingut a la meva pàgina personal, no hi ha pressa navega per
+        qualsevol dels enllaços superiors per començar.
+      </p>
 
       <div
         id="loadingSpinner"
